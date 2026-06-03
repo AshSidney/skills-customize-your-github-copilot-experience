@@ -30,7 +30,7 @@ To work with custom instructions, let's first set up our development environment
 
 1. Clone this repository to your machine.
 
-   [Clone in VS Code](vscode://vscode.git/clone?url=https://github.com/martinpolivka/skills-customize-your-github-copilot-experience.git)
+   [![Clone in VS Code](https://img.shields.io/badge/Clone%20in-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](vscode://vscode.git/clone?url=https://github.com/martinpolivka/skills-customize-your-github-copilot-experience.git)
 
    Or use the terminal:
 
