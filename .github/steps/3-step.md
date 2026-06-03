@@ -326,6 +326,13 @@ Skills can bundle scripts for deterministic tasks that are better handled by cod
 
    </details>
 
+   ---
+
+   ### Navigation
+
+   - Previous: [Step 2](2-step.md)
+   - Next: [Step 4](4-step.md)
+
 1. Review the generated assignment content to ensure it matches your established conventions.
 
 1. Commit and push your changes:
@@ -343,3 +350,10 @@ Skills can bundle scripts for deterministic tasks that are better handled by cod
 - If the skill doesn't appear in the `/` menu, reload the VS Code window.
 
 </details>
+
+---
+
+### Navigation
+
+- Previous: [Step 2](2-step.md)
+- Next: [Step 4](4-step.md)

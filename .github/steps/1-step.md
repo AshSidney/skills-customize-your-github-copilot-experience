@@ -28,16 +28,27 @@ See the [GitHub Docs: Repository Custom Instructions](https://docs.github.com/en
 
 To work with custom instructions, let's first set up our development environment and explore the project structure.
 
-1. Right-click the below button to open the **Create Codespace** page in a new tab. Use the default configuration.
+1. Clone this repository to your machine.
 
-   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/{{full_repo_name}}?quickstart=1)
+   [![Clone in VS Code](https://img.shields.io/badge/Clone%20in-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](vscode://vscode.git/clone?url=https://github.com/{{full_repo_name}}.git)
 
-1. Confirm the **Repository** field is your copy of the exercise, not the original, then click the green **Create Codespace** button.
-   - ✅ Your copy: `/{{full_repo_name}}`
-   - ❌ Original: `/skills/customize-your-github-copilot-experience`
+   Or use the terminal:
 
-1. Wait a moment for Visual Studio Code to load in your browser and for all extensions to install.
+   ```bash
+   # Clone the prepared workshop repository and enter its folder.
+   git clone https://github.com/{{full_repo_name}}.git
+   cd skills-customize-your-github-copilot-experience
+   ```
+
+1. Open the cloned repository in VS Code and wait for all extensions to install.
    - Ensure the **Live Preview** extension is activated.
+
+1. Before making changes, create your own participant branch.
+
+   ```bash
+   # Create a participant branch for your lab work.
+   git switch -c participant/<your-name>
+   ```
 
 1. Right-click on `index.html` and select **Show Preview** to see the website in action.
 
@@ -111,3 +122,10 @@ Now that you've explored the project, let's create custom instructions to help C
 - Make sure you committed and pushed the changes.
 
 </details>
+
+---
+
+### Navigation
+
+- [Back to README](../../README.md)
+- Next: [Step 2](2-step.md)

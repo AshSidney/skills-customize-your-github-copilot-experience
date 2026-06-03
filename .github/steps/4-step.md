@@ -96,3 +96,10 @@ Now let's create a specialized custom agent that helps brainstorm assignment ide
 - If the custom agent doesn't appear in the dropdown, restart VS Code or reload the window.
 
 </details>
+
+---
+
+### Navigation
+
+- Previous: [Step 3](3-step.md)
+- Next: [Review](x-review.md)

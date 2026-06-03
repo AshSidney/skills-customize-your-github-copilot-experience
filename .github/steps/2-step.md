@@ -98,3 +98,10 @@ Now let's create targeted instructions specifically for assignment files to ensu
   - `assignments/games-in-python/README.md`
 
 </details>
+
+---
+
+### Navigation
+
+- Previous: [Step 1](1-step.md)
+- Next: [Step 3](3-step.md)
