@@ -333,8 +333,6 @@ Skills can bundle scripts for deterministic tasks that are better handled by cod
    - The generated assignment directory and files.
    - Updated `config.json` configuration.
 
-1. Wait for Mona to prepare the next step!
-
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
@@ -348,5 +346,5 @@ Skills can bundle scripts for deterministic tasks that are better handled by cod
 
 ### Navigation
 
-- Previous: [Step 2](2-step.md)
 - Next: [Step 4](4-step.md)
+- Previous: [Step 2](2-step.md)

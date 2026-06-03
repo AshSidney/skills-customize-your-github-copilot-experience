@@ -88,8 +88,6 @@ Now let's create targeted instructions specifically for assignment files to ensu
    - `.github/instructions/assignments.instructions.md`
    - `assignments/games-in-python/README.md`
 
-1. Wait for Mona to prepare the next step!
-
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
@@ -103,5 +101,5 @@ Now let's create targeted instructions specifically for assignment files to ensu
 
 ### Navigation
 
-- Previous: [Step 1](1-step.md)
 - Next: [Step 3](3-step.md)
+- Previous: [Step 1](1-step.md)

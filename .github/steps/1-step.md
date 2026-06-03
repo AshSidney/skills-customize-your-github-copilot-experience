@@ -113,8 +113,6 @@ Now that you've explored the project, let's create custom instructions to help C
 
 1. Commit the `.github/copilot-instructions.md` file to the `main` branch and push it to GitHub.
 
-1. Wait for Mona to prepare the next step!
-
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 

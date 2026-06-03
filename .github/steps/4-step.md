@@ -86,8 +86,6 @@ Now let's create a specialized custom agent that helps brainstorm assignment ide
 
 1. Commit and push your changes to the `main` branch.
 
-1. Wait for Mona to give you a final review!
-
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
@@ -101,5 +99,5 @@ Now let's create a specialized custom agent that helps brainstorm assignment ide
 
 ### Navigation
 
-- Previous: [Step 3](3-step.md)
 - Next: [Review](x-review.md)
+- Previous: [Step 3](3-step.md)
