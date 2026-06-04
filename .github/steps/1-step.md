@@ -21,6 +21,7 @@ The complete set of instructions will be automatically added to all requests tha
 
 > [!TIP]
 > Keep instructions short and focused on the "how" of the project. This could be purpose, folder structure, coding standards, key tools, expected formats, etc.
+> If you want similar instructions to work across multiple coding agents, also consider the open [`AGENTS.md`](https://agents.md/) format.
 
 See the [GitHub Docs: Repository Custom Instructions](https://docs.github.com/en/copilot/how-tos/custom-instructions/adding-repository-custom-instructions-for-github-copilot) page for more information.
 

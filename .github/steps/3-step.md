@@ -33,6 +33,7 @@ Visual Studio Code discovers skills from the `.github/skills/` directory by defa
 
 > [!TIP]
 > Write a clear `description` in the frontmatter so the agent knows **when** to use the skill. Reference additional files for templates, examples, and detailed documentation.
+> For the broader ecosystem view of portable agent skills, see [agentskills.io](https://agentskills.io/).
 
 See the [VS Code Docs: Agent Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills) for more information.
 
