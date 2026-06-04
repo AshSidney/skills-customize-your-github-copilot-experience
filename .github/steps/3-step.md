@@ -29,7 +29,16 @@ This means you can have many skills installed without slowing things down — on
 
 Skills get activated in two ways: **automatically** when Copilot matches your request to a skill's description, or **explicitly** via a slash command (`/skill-name`). Because agents rely on the `name` and `description` to decide which skills to activate, writing a clear, specific description is important.
 
-Visual Studio Code discovers skills from the `.github/skills/` directory by default.
+Visual Studio Code discovers repository skills from `.github/skills/` by default. You can also create personal skills under `~/.copilot/skills/`, or configure additional locations with `chat.agentSkillsLocations`. Use `/skills` to open the Configure Skills experience and `/create-skill` to scaffold a new skill from chat.
+
+Important `SKILL.md` details:
+
+- The frontmatter `name` is required, must be lowercase letters, numbers, and hyphens, and should match the parent folder name.
+- The `description` is required and should explain both what the skill does and when to use it.
+- `argument-hint` can show expected inputs when the skill is invoked manually.
+- `user-invocable: false` hides the skill from direct slash-command use while still allowing model activation.
+- `disable-model-invocation: true` makes the skill manual-only.
+- Additional scripts, references, templates, and examples should be linked from `SKILL.md` with relative Markdown links so Copilot can discover them.
 
 > [!TIP]
 > Write a clear `description` in the frontmatter so the agent knows **when** to use the skill. Reference additional files for templates, examples, and detailed documentation.
@@ -339,6 +348,7 @@ Skills can bundle scripts for deterministic tasks that are better handled by cod
 
 - Make sure the skill is in the `.github/skills/new-assignment/` directory with a `SKILL.md` file.
 - The `name` field in `SKILL.md` frontmatter must match the parent directory name (`new-assignment`).
+- Make sure supporting files are linked from `SKILL.md` with relative Markdown links.
 - If the skill doesn't appear in the `/` menu, reload the VS Code window.
 
 </details>
