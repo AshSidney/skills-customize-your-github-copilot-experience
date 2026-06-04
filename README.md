@@ -10,6 +10,19 @@ _Customize GitHub Copilot's behavior with custom instructions, prompts, and cust
 - **Prerequisites**: [Getting Started with GitHub Copilot](https://github.com/martinpolivka/skills-getting-started-with-github-copilot) exercise
 - **How long**: This exercise takes less than 30 minutes to complete.
 
+### Local prerequisites
+
+Codespaces are not used in this workshop. Before you start, make sure your computer has:
+
+- [Git](https://git-scm.com/) and access to push branches to this repository.
+- [Visual Studio Code](https://code.visualstudio.com/) with the GitHub Copilot and GitHub Copilot Chat extensions installed.
+- GitHub Copilot access for your GitHub account, with Copilot Chat and Agent Mode available in VS Code.
+- The VS Code Live Preview extension for opening the static website preview from `index.html`.
+- Node.js LTS or later for running the helper scripts used when creating a new assignment.
+- Python 3.13 for working with the Python starter files in the assignments.
+- The VS Code Python extension.
+- Optional: Rainbow CSV for easier viewing of CSV files in the sample assignments.
+
 In this exercise, you will:
 
 1. Set up repository-wide custom instructions to provide Copilot the essential project context
