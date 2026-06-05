@@ -84,7 +84,7 @@ Now let's create a specialized custom agent that helps brainstorm assignment ide
 
    <img width="380" alt="Create this assignment handoff button" src="../images/handoff-button.png" />
 
-1. Commit and push your changes to the `main` branch.
+1. Commit and push your changes to your `participant/<your-name>` branch.
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

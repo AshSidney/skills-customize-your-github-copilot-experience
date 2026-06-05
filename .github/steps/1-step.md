@@ -112,7 +112,7 @@ Now that you've explored the project, let's create custom instructions to help C
 
    <img width="504" height="183" alt="Copilot response showing custom instructions reference" src="../images/copilot-custom-instructions-reference.png" />
 
-1. Commit the `.github/copilot-instructions.md` file to the `main` branch and push it to GitHub.
+1. Commit the `.github/copilot-instructions.md` file to your `participant/<your-name>` branch and push it to GitHub.
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

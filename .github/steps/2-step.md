@@ -83,7 +83,7 @@ Now let's create targeted instructions specifically for assignment files to ensu
 
 1. Compare the suggested changes with the original file structure to see how Copilot applied your instructions. Apply the suggested changes and check how the updated assignment now appears on the **Site Preview**.
 
-1. Commit both files to the `main` branch and push your changes to GitHub.
+1. Commit both files to your `participant/<your-name>` branch and push your changes to GitHub.
 
    - `.github/instructions/assignments.instructions.md`
    - `assignments/games-in-python/README.md`
@@ -91,7 +91,7 @@ Now let's create targeted instructions specifically for assignment files to ensu
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
-- Make sure you committed both files to `main` branch:
+- Make sure you committed both files to your `participant/<your-name>` branch:
   - `.github/instructions/assignments.instructions.md`
   - `assignments/games-in-python/README.md`
 
