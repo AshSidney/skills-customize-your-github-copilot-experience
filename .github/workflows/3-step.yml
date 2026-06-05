@@ -3,7 +3,7 @@ name: Step 3
 on:
   push:
     branches:
-      - main
+      - 'participant/*'
     paths:
       - ".github/skills/**"
       - "**/SKILL.md"

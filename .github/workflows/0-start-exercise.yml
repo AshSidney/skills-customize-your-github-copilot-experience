@@ -3,7 +3,7 @@ name: Step 0 # Start Exercise
 on:
   push:
     branches:
-      - main
+      - 'participant/*'
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
 
       - name: Update assignment dates
         uses: actions/github-script@v9
@@ -77,7 +77,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          ref: main
+          ref: ${{ github.ref_name }}
 
       - name: Get response templates
         uses: actions/checkout@v6
